@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ajouter le logo à l'onglet du site-->
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>Duckmania - En Maintenance</title>
+
+    <!-- POLICE D'ÉCRITURE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Strike&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+    <!-- En-tête du site-->
+    <header class="d-flex justify-content-between align-items-center">
+
+        <img src="img/logo.png" alt="logo du site" id="logo">
+
+        <div class="d-flex">
+            <ul class="tab-flex">
+                <li class="tab">
+                    <a href="index.html">Accueil</a> 
+                </li>
+                <li class="tab tab-active tab-content">
+                    <p>Magasin</p>
+                </li>
+                <li class="tab">
+                    <a href="formulaire.html">Formulaire</a>
+                </li>
+                <li class="tab">
+                    <a href="maintenance.html">Profile</a>
+                </li>
+                <li>
+                    <a id="button" class="d-flex" href="#">Dark Mode</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content active">
+            <p>Paris Duck Store </p>
+            <p>Amsterdam Duck Store </p>
+        </div>
+
+    </header>
+
+
+    <!-- Corp du site-->
+    <section class="d-flex justify-content-around" id="section1">
+        <div class="square">
+            <nav class="d-flex justify-content-around">
+                <img src="img/warning.png" alt="Warning">
+            </nav>
+            <h2 class="d-flex justify-content-around">Site en Maintenance</h2>
+        </div>
+    </section>
+
+
+    <!-- Bas de Page-->
+    <footer style="margin-top: 7.6%;">
+        <nav class="d-flex justify-content-end">
+            <img src="img/logo.png" alt="logo du site" id="logo_footer">
+        </nav>
+        <section class="d-flex justify-content-around">
+            <div>
+                <ul class="d-flex flex-column" id="footer">
+                    <li>CGV</li>
+                    <li>MENTIONS LÉGALES</li>
+                    <li>VIE PRIVÉE</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="d-flex flex-column">
+                    <li>AIDE</li>
+                    <li>DUCKDUCK COMPAGNY</li>
+                </ul>
+            </div>
+            <div class="d-flex">
+                <img src="img/Discord.png" alt="" id="icon">
+                <img src="img/Instagram.png" alt="" id="icon">
+                <img src="img/Snapchat.png" alt="" id="icon">
+            </div>
+
+    </footer>
+    <script src="JavaScript/darkMode.js"></script>
+    <script src="JavaScript/tabs.js"></script>
+    <script src="JavaScript/form.js"></script>
+</body>
+</html>
